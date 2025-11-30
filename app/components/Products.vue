@@ -188,7 +188,8 @@ const removeBrand = (brandTitle: string) => {
                     <!-- Mobile -->
                     <div class="relative sm:hidden">
                         <Icon name="mage:filter" class="absolute top-3 left-4 w-5 h-5" />
-                        <button @click="isModalOpen = true" class="py-2 px-10 ">Filter</button>
+                        <button @click="isModalOpen = true" class="py-2 px-10 ">Filter {{ numberOfFilters ?
+                            `(${numberOfFilters})` : '' }}</button>
                         <span class="border-r-2 border-gray-400 "></span>
                     </div>
 
