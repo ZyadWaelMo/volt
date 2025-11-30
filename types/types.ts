@@ -1,6 +1,6 @@
 export interface ProductsResponse {
-    meta:       Meta;
-    data:       ProductsType[];  // Changed from string[] to ProductsType[]
+    meta: Meta;
+    data: ProductsType[];
     pagination: Pagination;
 }
 
@@ -17,27 +17,27 @@ export interface Pagination {
 }
 
 export interface ProductsType {
-    id:                  string;
-    title:               string;
-    description:         string;
-    type:                string;
-    price:               string;
-    has_variant:         boolean;
-    variants_count:      number;
-    default_variant_id:  string;
-    is_in_stock:         boolean;
-    sale_price:          string;
-    sale_percent:        number;
-    featured_image:      string;
-    second_image:        string;
-    rating:              Rating;  
-    trendy:              number;
-    best_seller:         number;
-    featured:            number;
-    clearance:           number;
-    brand:               Brand;  
-    model_type:          string;
-    hidden:              boolean;
+    id: string;
+    title: string;
+    description: string;
+    type: string;
+    price: string;
+    has_variant: boolean;
+    variants_count: number;
+    default_variant_id: string;
+    is_in_stock: boolean;
+    sale_price: string;
+    sale_percent: number;
+    featured_image: string;
+    second_image: string;
+    rating: Rating;
+    trendy: number;
+    best_seller: number;
+    featured: number;
+    clearance: number;
+    brand: Brand;
+    model_type: string;
+    hidden: boolean;
     customizable_fields: any[];
 }
 
@@ -55,31 +55,31 @@ export interface Brand {
 
 
 export interface CategoriesResponse {
-    meta:       Meta;
-    data:       CategoriesType[];
+    meta: Meta;
+    data: CategoriesType[];
     pagination: Pagination;
 }
 
 export interface CategoriesType {
-    id:       string;
-    title:    string;
-    order:    number;
-    children: CategoriesType[]; 
+    id: string;
+    title: string;
+    order: number;
+    children: CategoriesType[];
 }
 
 
 
 
 export interface BrandsResponse {
-    meta:       Meta;
-    data:       BrandsType[];
+    meta: Meta;
+    data: BrandsType[];
     pagination: Pagination;
 }
 
 export interface BrandsType {
-    id:             string;
-    title:          string;
-    logo:           string;
+    id: string;
+    title: string;
+    logo: string;
     products_count: number;
 }
 

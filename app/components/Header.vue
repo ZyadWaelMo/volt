@@ -13,17 +13,17 @@
         <div class="flex  justify-between sm:w-64 sm:h-6 mr-[22px] sm:mr-[50px]">
             <div class="flex items-center">
                 <Icon name="ic:round-person" class="h-[24px] w-[24px]" />
-                <div class="text-sm font-normal hidden sm:block ml-1"> Account</div>
+                <a href="#" class="text-sm font-normal hidden sm:block ml-1"> Account</a>
             </div>
 
             <div class="flex items-center">
                 <Icon name="mdi:cards-heart-outline" class="h-[24px] w-[24px] mx-[10px] sm:mx-[0px]" />
-                <div class="text-sm font-normal hidden sm:block ml-1"> Wishlist</div>
+                <a href="#" class="text-sm font-normal hidden sm:block ml-1"> Wishlist</a>
             </div>
 
             <div class="flex items-center">
                 <Icon name="mdi:cart-outline" class="h-[24px] w-[24px]" />
-                <div class="text-sm font-normal hidden sm:block ml-1">Cart</div>
+                <a href="#" class="text-sm font-normal hidden sm:block ml-1">Cart</a>
             </div>
 
         </div>

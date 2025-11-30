@@ -4,6 +4,7 @@
 
 <template>
     <div class="p-4 flex">
-        <h2> BreadCrumb: Home / Electronics / </h2> <h2 class="font-bold">Appliances</h2>
+        <a href="#" class="ml-[18px] sm:ml-[50px]">Home &nbsp; / &nbsp;<a href="#">Electronics</a>&nbsp; / &nbsp;</a> <a
+            href="#" class="text-gray-400"> Appliances</a>
     </div>
 </template>

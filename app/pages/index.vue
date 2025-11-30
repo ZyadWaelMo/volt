@@ -5,7 +5,7 @@
 
 
 <template>
-    <div>
+    <div class="overflow-hidden">
         <ProductsList />
         <BreadCrumb />
         <Products />

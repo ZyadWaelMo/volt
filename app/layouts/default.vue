@@ -7,10 +7,7 @@
 
 <template>
     <div>
-            <Header />
-            <slot />
+        <Header />
+        <slot />
     </div>
 </template>
-
-
-
